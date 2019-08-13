@@ -1,1 +1,1 @@
-# a_simple_weather_app
+# a-simple-weather-app
