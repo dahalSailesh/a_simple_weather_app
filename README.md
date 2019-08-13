@@ -1,1 +1,0 @@
-# a-simple-weather-app
