@@ -41,7 +41,7 @@ function loadApp(){
                 return response.json(); 
             })
             .then(data =>{ 
-                const temperature = data.currently.temperature
+                const temperature = data.currently.temperature + 2 // added the +2 for a better estimate
                 const summary = data.currently.summary
                 const icon = data.currently.icon
                 const timeZ = data.timezone;
